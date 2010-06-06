@@ -1,0 +1,41 @@
+.\" Generated with Ronnjs/v0.1
+.\" http://github.com/kapouer/ronnjs/
+.
+.TH "MARKDOWN" "5" "June 2010" "VERSION" "MANUAL"
+.
+.SH NAME
+\fBmarkdown\fR \-\- humane markup syntax
+.
+.SH "DESCRIPTION"
+.
+.SS "Philosophy"
+.
+.SH "Buffers"
+Pure Javascript is Unicode friendly but not nice to binary data.  When
+dealing with TCP streams or the file system, it's necessary to handle octet
+streams. Node has several strategies for manipulating, creating, and
+consuming octet streams.
+.
+.P
+Raw data is stored in instances of the \fBBuffer\fR class. A \fBBuffer\fR is similar
+to an array of integers but corresponds to a raw memory allocation outside
+the V8 heap. A \fBBuffer\fR cannot be resized.
+Access the class with \fBrequire('buffer').Buffer\fR\.
+.
+.P
+Converting between Buffers and JavaScript string objects requires an explicit encoding
+method.  Node supports 3 string encodings: UTF\-8 (\fB'utf8'\fR), ASCII (\fB'ascii'\fR), and
+Binary (\fB'binary'\fR).
+.
+.IP "\(bu" 4
+\fB'ascii'\fR \- for 7 bit ASCII data only.  This encoding method is very fast, and will
+strip the high bit if set.
+.
+.IP "\(bu" 4
+\fB'binary'\fR \- for 8 bit binary data such as images.
+.
+.IP "\(bu" 4
+\fB'utf8'\fR \- Unicode characters.  Many web pages and other document formats use UTF\-8.
+.
+.IP "" 0
+

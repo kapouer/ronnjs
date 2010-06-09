@@ -62,7 +62,7 @@ var ronn = new ronn.Ronn(fTxt, opts.get("version"), opts.get("manual"), opts.get
 
 if (opts.get("man") && !opts.get("build")) {
 	var spawn = require('child_process').spawn;
-	var man = spawn('man', ['--warnings',  '-E UTF-8',  '-l',  '-'], {"LANG":"C", "MANWIDTH":"80"});
+	var man = spawn('man', ['--warnings',  '-E UTF-8',  '-l',  '-'], {"LANG":"C"});
 	man.stdout.addListener('data', function (data) {
 		sys.puts(data);
 	});
@@ -85,7 +85,7 @@ if (opts.get("man") && !opts.get("build")) {
 		if (opts.get("fragment")) fFrag = ronn.fragment();
 	}
 	if (opts.get("build")) {
-		if (fRoff) fs.writeFileSync(fBase + ".1", fRoff, 'utf8');
+		if (fRoff) fs.writeFileSync(fBase + ".roff", fRoff, 'utf8');
 		if (fHtml) fs.writeFileSync(fBase + ".html", fHtml, 'utf8');
 		if (fFrag) fs.writeFileSync(fBase + ".fragment", fFrag, 'utf8');
 	} else {

@@ -1,4 +1,7 @@
 # TODO
 
-* figure how to pass VERSION and MANUAL parameters -> extend ronn ?
 * output html
+* show <hr> tags using something like
+    \l'\n(.lu*8u/10u'
+  and take care of the current indentation.
+

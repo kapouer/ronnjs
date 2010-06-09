@@ -62,6 +62,13 @@ blockquotes look like quoted passages of text, assuming you've ever
 used email.
 
 ### Inline HTML
+*dfsfs*
+- dqsf
+- sfsf
+- sf
+* fdfdsf
+* fsdfsd
+
 
 Markdown's syntax is intended for one purpose: to be used as a
 format for *writing* for the web.

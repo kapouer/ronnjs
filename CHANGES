@@ -1,6 +1,11 @@
 Ronnjs Changes and Release Notes
 ==============================
 
+Version 0.2
+------------------------------
+
+Supports output to html fragment.
+
 Version 0.1
 ------------------------------
 

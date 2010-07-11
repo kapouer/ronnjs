@@ -82,7 +82,13 @@ if (opts.get("man") && !opts.get("build")) {
 	else {
 		if (opts.get("roff")) fRoff = ronn.roff();
 		if (opts.get("html")) fHtml = ronn.html();
-		if (opts.get("fragment")) fFrag = ronn.fragment();
+		if (opts.get("fragment")) {
+			if (opts.get("html")) {
+				sys.debug("Can't use both --fragment and --html");
+				process.exit(-1);
+			}
+			fFrag = ronn.fragment();
+		}
 	}
 	if (opts.get("build")) {
 		if (fRoff) fs.writeFileSync(fBase + ".roff", fRoff, 'utf8');

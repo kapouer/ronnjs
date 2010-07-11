@@ -4,7 +4,7 @@ ronnjs(1) -- markdown to roff converter
 ## Synopsis
 
 Javascript port of [ronn], using [markdown-js] to produce roff man pages.
-Not fully compatible with [ronn].
+Not fully compatible with [ronn], although it aims to be, wherever possible.
 
 ## Usage
 

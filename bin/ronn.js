@@ -1,12 +1,14 @@
 #!/usr/bin/nodejs
 
+var RONN_VERSION = 0.3;
+
 var opts = require(__dirname + '/../lib/ext/opts');
 var ronn = require(__dirname + '/../lib/ronn');
 
 var options = [
 	{ short       : 'V'
 	, description : 'Show version and exit'
-	, callback    : function () { sys.puts('0.1'); process.exit(1); }
+	, callback    : function () { sys.puts(RONN_VERSION); process.exit(1); }
 	},
 	{ short       : 'b'
 	, long        : 'build'

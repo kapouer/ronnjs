@@ -1,4 +1,4 @@
-#!/usr/bin/nodejs
+#!/usr/bin/env node
 
 var RONN_VERSION = 0.3;
 

@@ -57,6 +57,7 @@ var fs = require('fs');
 var path = require('path');
 
 var fPath = opts.arg('file');
+
 var fBase = path.join(path.dirname(fPath), path.basename(fPath, path.extname(fPath)));
 
 var fTxt = fs.readFileSync(fPath, 'utf8');

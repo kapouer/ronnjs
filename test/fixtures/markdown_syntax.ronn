@@ -884,5 +884,5 @@ also by John Gruber.
 
 ## SEE ALSO
 
-ronn(5)
+ronn(5)<br>
 <http://daringfireball.net/projects/markdown/>

@@ -1,5 +1,8 @@
-<h2 id='NAME'>NAME</h2>
-<p><code>markdown</code> - humane markup syntax</p>
+<div class='mp'>
+<h2 id="NAME">NAME</h2>
+<p class="man-name">
+  <code>markdown</code> - <span class="man-whatis">humane markup syntax</span>
+</p>
 
 <h2 id="SYNOPSIS">SYNOPSIS</h2>
 
@@ -97,7 +100,7 @@ This is another regular paragraph.
 HTML tags. E.g., you can't use Markdown-style <code>*emphasis*</code> inside an
 HTML block.</p>
 
-<p>Span-level HTML tags -- e.g. <code>&lt;span&gt;</code>, <code>&lt;cite&gt;</code>, or <code>&lt;del></code> -- can be
+<p>Span-level HTML tags -- e.g. <code>&lt;span&gt;</code>, <code>&lt;cite&gt;</code>, or <code>&lt;del&gt;</code> -- can be
 used anywhere in a Markdown paragraph, list item, or header. If you
 want, you can even use HTML tags instead of Markdown formatting; e.g. if
 you'd prefer to use HTML <code>&lt;a&gt;</code> or <code>&lt;img&gt;</code> tags instead of Markdown's
@@ -150,7 +153,7 @@ into <code>&amp;amp;</code>.</p>
 <pre><code>AT&amp;amp;T
 </code></pre>
 
-<p>Similarly, because Markdown supports <a href="#html">inline HTML</a>, if you use
+<p>Similarly, because Markdown supports <a href="#html" data-bare-link="true">inline HTML</a>, if you use
 angle brackets as delimiters for HTML tags, Markdown will treat them as
 such. But if you write:</p>
 
@@ -188,7 +191,7 @@ end a line with two or more spaces, then type return.</p>
 
 <p>Yes, this takes a tad more effort to create a <code>&lt;br /&gt;</code>, but a simplistic
 "every line break is a <code>&lt;br /&gt;</code>" rule wouldn't work for Markdown.
-Markdown's email-style <a href="#blockquote">blockquoting</a> and multi-paragraph <a href="#list">list items</a>
+Markdown's email-style <a href="#blockquote" data-bare-link="true">blockquoting</a> and multi-paragraph <a href="#list" data-bare-link="true">list items</a>
 work best -- and look better -- when you format them with hard breaks.</p>
 
 <h3 id="Headers">Headers</h3>
@@ -948,5 +951,7 @@ also by John Gruber.</p>
 
 <h2 id="SEE-ALSO">SEE ALSO</h2>
 
-<p>ronn(5)<br />
+<p><span class="man-ref">ronn<span class="s">(5)</span></span><br />
 <a href="http://daringfireball.net/projects/markdown/" data-bare-link="true">http://daringfireball.net/projects/markdown/</a></p>
+
+</div>

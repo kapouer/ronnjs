@@ -4,7 +4,19 @@ Ronnjs Changes and Release Notes
 Version 0.3
 ------------------------------
 
-Outputs self-closing tags when they're empty.
+### Features
+
+* Outputs self-closing tags when they're empty.
+* Adds id to level >= 2 headings. Allows links to refer to them.
+
+### Fixed bugs
+
+* Fix lists with inline text and then sub-lists.
+* Roff skips generating title heading if name is empty.
+* Strip space from dt and dd values in roff output.
+* Section links are bare links in roff output.
+* Correct node shebang
+
 
 Version 0.2
 ------------------------------

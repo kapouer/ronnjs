@@ -8,6 +8,7 @@ Version 0.3
 
 * Outputs self-closing tags when they're empty.
 * Adds id to level >= 2 headings. Allows links to refer to them.
+* Outputs roff .TP for level 4 headings.
 
 ### Fixed bugs
 

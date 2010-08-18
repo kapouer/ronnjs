@@ -1,2 +1,0 @@
- * `-S` <text>, `search` <text>:
-   Performs a substring search of formula names for <text>.

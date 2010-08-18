@@ -4,7 +4,7 @@
 	"description" : "markdown to roff and html converter",
 	"keywords" : [ "markdown", "roff", "man", "documentation" ],
 	"main" : "ronn",
-	"directories" : {"lib" : "./lib"},
+	"directories" : {"lib" : "lib"},
 	"engines" : { "node" : ">=0.1.103" },
 	"bin" : { "ronn" : "./bin/ronn.js" },
 	"contributors" : [

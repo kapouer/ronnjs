@@ -7,6 +7,9 @@
 	"directories" : {"lib" : "lib"},
 	"engines" : { "node" : ">=0.1.103" },
 	"bin" : { "ronn" : "./bin/ronn.js" },
+	"dependencies" : {
+		"opts" : ">=1.2.0"
+	},
 	"contributors" : [
 		{ "name" : "Jérémy Lal", "email" : "kapouer@melix.org" },
 		{ "name" : "Ryan Tomayko", "email" : "r@tomayko.com" }

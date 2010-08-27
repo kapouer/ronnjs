@@ -1,6 +1,18 @@
 Ronnjs Changes and Release Notes
 ==============================
 
+Version 0.3.3
+------------------------------
+
+### Features
+
+* opts is now a dependency
+
+### Fixed bugs
+
+* -v outputs right version...
+
+
 Version 0.3.2
 ------------------------------
 

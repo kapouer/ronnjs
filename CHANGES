@@ -1,6 +1,14 @@
 Ronnjs Changes and Release Notes
 ==============================
 
+Version 0.3.4
+------------------------------
+
+### Fixed bugs
+
+* Fix syntax error in bin/ronn.js
+
+
 Version 0.3.3
 ------------------------------
 

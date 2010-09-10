@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var RONN_VERSION = 0.3.3;
+var RONN_VERSION = "0.3.4";
 
 var opts = require('opts');
 var ronn = require(__dirname + '/../lib/ronn');

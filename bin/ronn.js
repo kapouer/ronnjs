@@ -2,6 +2,9 @@
 
 var RONN_VERSION = "0.3.4";
 
+var sys = require('sys');
+var fs = require('fs');
+var path = require('path');
 var opts = require('opts');
 var ronn = require(__dirname + '/../lib/ronn');
 
@@ -50,11 +53,6 @@ var arguments = [
 	}
 ];
 opts.parse(options, arguments, true);
-
-
-var sys = require('sys');
-var fs = require('fs');
-var path = require('path');
 
 var fPath = opts.arg('file');
 

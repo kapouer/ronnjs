@@ -1,6 +1,14 @@
 Ronnjs Changes and Release Notes
 ==============================
 
+Version 0.3.5
+------------------------------
+
+### Fixed bugs
+
+* -V requires sys, move requires before
+
+
 Version 0.3.4
 ------------------------------
 

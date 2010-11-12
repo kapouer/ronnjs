@@ -7,6 +7,8 @@ Version 0.3.5
 ### Fixed bugs
 
 * -V requires sys, move requires before
+* package.json main should be lib/ronnjs, so that require works
+  (Thanks to Evan Meagher)
 
 
 Version 0.3.4

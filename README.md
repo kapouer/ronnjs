@@ -1,4 +1,4 @@
-ronnjs(1) -- markdown to roff converter
+ronnjs(1) -- markdown to roff/html converter
 =======================================
 
 ## Synopsis
@@ -12,7 +12,7 @@ This outputs doc.roff from a markdown file :
 
 	ronn.js --build --roff doc.md
 
-Command-line options are listed with -h
+Command-line options are listed with --help
 
 
 ## How it works ?

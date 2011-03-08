@@ -1,0 +1,30 @@
+foo(1) -- do some foo
+=====================
+
+## SYNOPSIS
+    foo [-v] [-h]
+
+## DESCRIPTION
+
+Do some foo!
+
+## OPTIONS
+
+The following options are supported:
+
+-v
+
+    Verbose.
+
+    Or should this be a version option?
+
+
+-h
+
+    Help output.
+
+    Perhaps I should add '--help' too.
+
+## SEE ALSO
+
+    bar(1)

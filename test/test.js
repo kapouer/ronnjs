@@ -79,8 +79,7 @@ for (var i=0; i < names.length; ++i) {
       } catch(e) {}
       
       test.expect(numTests);
-      var base = path.basename(ronnPath).slice(0, -".ronn".length);
-      var ronn = new Ronn(fs.readFileSync(ronnPath, 'utf-8'), "1.0", base, "2010-12-25");
+      var ronn = new Ronn(fs.readFileSync(ronnPath, 'utf-8'), "", "", "2010-12-25");
       if (expectedRoff !== null) {
         var actual = ronn.roff();
         test.equal(expectedRoff, actual,

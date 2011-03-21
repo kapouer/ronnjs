@@ -14,6 +14,8 @@ This outputs doc.roff from a markdown file :
 
 Command-line options are listed with --help
 
+When file argument is omitted, ronn.js reads standard input.
+
 
 ## How it works ?
 

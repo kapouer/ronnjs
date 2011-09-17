@@ -4,6 +4,7 @@ Ronnjs Changes and Release Notes
 Version 0.3.7
 ------------------------------
 
+* node 0.5 compatibility. (Thanks to Isaac Z. Schlueter)
 
 
 Version 0.3.6

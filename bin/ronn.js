@@ -2,7 +2,7 @@
 
 var RONN_VERSION = "0.3.7";
 
-var sys = require('sys');
+var sys = require('util');
 var fs = require('fs');
 var path = require('path');
 var opts = require('opts');

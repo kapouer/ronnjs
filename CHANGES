@@ -5,6 +5,7 @@ Version 0.3.7
 ------------------------------
 
 * node 0.5 compatibility. (Thanks to Isaac Z. Schlueter)
+* Proper handling level-4 headers on roff generating. (Thanks to Oleg Efimov)
 
 
 Version 0.3.6

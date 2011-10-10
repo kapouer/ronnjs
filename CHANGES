@@ -4,8 +4,9 @@ Ronnjs Changes and Release Notes
 Version 0.3.7
 ------------------------------
 
-* node 0.5 compatibility. (Thanks to Isaac Z. Schlueter)
-* Proper handling level-4 headers on roff generating. (Thanks to Oleg Efimov)
+* 0.4 <= node <= 0.5 compatibility. (Thanks to Isaac Z. Schlueter)
+* Proper handling level-4 headers on roff generating. (Thanks to Oleg Efimov
+  for pointing out the issue).
 * Update markdownjs, fixes some node incompatibilities.
 
 

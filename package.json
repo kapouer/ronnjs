@@ -1,6 +1,6 @@
 {
 	"name" : "ronn",
-	"version" : "0.3.7",
+	"version" : "0.3.8",
 	"description" : "markdown to roff and html converter",
 	"keywords" : [ "markdown", "roff", "man", "documentation" ],
 	"main" : "lib/ronn",

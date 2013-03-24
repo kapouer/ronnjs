@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var RONN_VERSION = "0.3.8";
+var RONN_VERSION = "0.4.0";
 
 var sys = require('util');
 var fs = require('fs');

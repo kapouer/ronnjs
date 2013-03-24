@@ -1,9 +1,10 @@
 Ronnjs Changes and Release Notes
 ==============================
 
-Version 0.3.8
+Version 0.4.0
 ------------------------------
 
+* Depend on markdown >= 0.4.0 package.
 
 
 Version 0.3.7
